@@ -1,0 +1,64 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2015",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "paths": {
+      "basic-setup": [
+        "dist/basic-setup"
+      ],
+      "basic-setup/*": [
+        "dist/basic-setup/*"
+      ],
+      "ol-proj-setup": [
+        "dist/ol-proj-setup"
+      ],
+      "ol-proj-setup/*": [
+        "dist/ol-proj-setup/*"
+      ],
+      "custom-markers": [
+        "dist/custom-markers"
+      ],
+      "custom-markers/*": [
+        "dist/custom-markers/*"
+      ],
+      "simple-popup": [
+        "dist/simple-popup"
+      ],
+      "simple-popup/*": [
+        "dist/simple-popup/*"
+      ],
+      "custom-control": [
+        "dist/custom-control"
+      ],
+      "custom-control/*": [
+        "dist/custom-control/*"
+      ],
+      "read-me": [
+        "dist/read-me"
+      ],
+      "read-me/*": [
+        "dist/read-me/*"
+      ]
+    }
+  },
+  "angularCompilerOptions": {
+    "fullTemplateTypeCheck": true,
+    "strictInjectionParameters": true
+  }
+}
